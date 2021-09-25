@@ -50,3 +50,4 @@ Means that the css should only scoped to the project it's within.
 
 - We'll finally use Amazon's S3 to deploy each microfrontend independently.
 
+- Amazon S3 will hold all the files in our project; When the user navigates in the application, the browser will make a request to Amazon's CloudFrontt (CDN) which will help  us serve the files up.
